@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced CSS Assignment</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="#home">alpk</a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#cards">Cards</a><a href="#layout">Grid</a><a href="#gallery">Gallery</a><a href="#portfolio">Portfolio</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <p class="eyebrow">Assignment #2 · Advanced CSS</p>
+      <h1>Flexbox & CSS Grid</h1>
+      <p>A responsive one-page project demonstrating modern layout, alignment, spacing, grid areas and hover interactions.</p>
+      <a class="button" href="#cards">Explore tasks</a>
+    </section>
+
+    <section id="cards" class="section">
+      <div class="section-heading"><span>Part 1</span><h2>Flexbox Card Row</h2></div>
+      <div class="card-row">
+        <article class="card"><div class="card-image image-one">01</div><div class="card-body"><h3>Design</h3><p>Clean interfaces built with thoughtful spacing, hierarchy and responsive CSS.</p><a class="button small" href="#portfolio">View project</a></div></article>
+        <article class="card"><div class="card-image image-two">02</div><div class="card-body"><h3>Development</h3><p>Semantic HTML and reusable CSS patterns that remain easy to understand and maintain.</p><a class="button small" href="#portfolio">View project</a></div></article>
+        <article class="card"><div class="card-image image-three">03</div><div class="card-body"><h3>Responsive UI</h3><p>Layouts that adapt naturally from desktop screens to tablets and mobile devices.</p><a class="button small" href="#portfolio">View project</a></div></article>
+      </div>
+    </section>
+
+    <section id="layout" class="section">
+      <div class="section-heading"><span>Part 2 · Task 2</span><h2>Grid Areas Layout</h2></div>
+      <div class="grid-demo">
+        <header class="demo-header">HEADER</header>
+        <aside class="demo-sidebar"><strong>SIDEBAR</strong><p>Navigation and supporting information.</p></aside>
+        <div class="demo-main"><strong>MAIN CONTENT</strong><p>The parent uses named CSS Grid areas. The header and footer span both columns while the sidebar and main content sit side by side.</p></div>
+        <footer class="demo-footer">FOOTER</footer>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <div class="section-heading"><span>Part 2 · Task 3</span><h2>CSS Grid Gallery</h2></div>
+      <div class="gallery">
+        <figure><div class="gallery-art g1"></div><figcaption>Creative Space</figcaption></figure>
+        <figure><div class="gallery-art g2"></div><figcaption>Night Gradient</figcaption></figure>
+        <figure><div class="gallery-art g3"></div><figcaption>Warm Horizon</figcaption></figure>
+        <figure><div class="gallery-art g4"></div><figcaption>Blue Motion</figcaption></figure>
+        <figure><div class="gallery-art g5"></div><figcaption>Soft Geometry</figcaption></figure>
+        <figure><div class="gallery-art g6"></div><figcaption>Green Light</figcaption></figure>
+        <figure><div class="gallery-art g7"></div><figcaption>Violet Wave</figcaption></figure>
+        <figure><div class="gallery-art g8"></div><figcaption>Orange Glow</figcaption></figure>
+        <figure><div class="gallery-art g9"></div><figcaption>Deep Space</figcaption></figure>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section">
+      <div class="section-heading"><span>Part 3 · Task 4</span><h2>Portfolio: Flexbox + Grid</h2></div>
+      <div class="portfolio-grid">
+        <div class="projects">
+          <article class="project"><div><span>01</span><h3>Learning Platform</h3><p>A responsive education interface with clear navigation and content cards.</p></div><a class="text-link" href="#home">Details →</a></article>
+          <article class="project"><div><span>02</span><h3>Analytics Dashboard</h3><p>A structured dashboard concept focused on readable metrics and flexible layout.</p></div><a class="text-link" href="#home">Details →</a></article>
+          <article class="project"><div><span>03</span><h3>Portfolio Website</h3><p>A modern portfolio combining Grid for page structure and Flexbox inside components.</p></div><a class="text-link" href="#home">Details →</a></article>
+        </div>
+        <aside class="profile">
+          <div class="avatar">AK</div><p class="eyebrow">Student</p><h3>Almanzor Kamzeyev</h3><p>SE-2540</p><p>This assignment demonstrates Flexbox, CSS Grid, responsive design, equal-height cards and hover effects.</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><strong>alpk</strong><span>Advanced CSS · Flexbox & Grid</span></footer>
+</body>
+</html>
