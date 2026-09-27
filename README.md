@@ -16,7 +16,7 @@ This project demonstrates advanced CSS layout techniques using **Flexbox** and *
 - `gap` creates consistent spacing between navigation links.
 
 **Screenshot:**  
-_Add `screenshots/task0-navbar.png` here after taking the screenshot._
+![Task 0 Navigation Bar]("screenshots/task0-navbar.png)
 
 ### Task 1: Card Row
 - Three cards are placed in one Flexbox container.
@@ -26,7 +26,7 @@ _Add `screenshots/task0-navbar.png` here after taking the screenshot._
 - Hovering a card adds lift and shadow effects.
 
 **Screenshot:**  
-_Add `screenshots/task1-cards.png` here._
+![Task 1 Card Row](screenshots/task1-cards.png)_
 
 ## Part 2 — Grid System
 
@@ -34,7 +34,7 @@ _Add `screenshots/task1-cards.png` here._
 The example uses named areas for `header`, `sidebar`, `main`, and `footer`. The header/footer span the complete layout, while sidebar/main occupy separate columns.
 
 **Screenshot:**  
-_Add `screenshots/task2-grid-layout.png` here._
+![Task 2 Grid System](screenshots/task2-grid-layout.png)
 
 ### Task 3: Image Gallery
 - The gallery contains nine visual items.
@@ -43,7 +43,7 @@ _Add `screenshots/task2-grid-layout.png` here._
 - Each item has a caption overlay shown on hover.
 
 **Screenshot:**  
-_Add `screenshots/task3-gallery.png` here._
+![Task 3 Image Gallery](screenshots/task3-gallery.png)
 
 ## Part 3 — Combining Flexbox & Grid
 
@@ -55,7 +55,7 @@ _Add `screenshots/task3-gallery.png` here._
 - Media queries adapt the layout for tablets and phones.
 
 **Screenshot:**  
-_Add `screenshots/task4-portfolio.png` here._
+![Task 4 Portfolio Page](screenshots/task4-portfolio.png)
 
 ## Work Process Summary
 I first created semantic HTML sections for every assignment task. I used Flexbox for one-dimensional layouts such as navigation, card rows, and content inside project cards. I used CSS Grid where both rows and columns were important, especially the named-area layout, gallery, and portfolio section. Finally, I added hover transitions and media queries to make the website interactive and responsive.
