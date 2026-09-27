@@ -16,7 +16,7 @@ This project demonstrates advanced CSS layout techniques using **Flexbox** and *
 - `gap` creates consistent spacing between navigation links.
 
 **Screenshot:**  
-![Task 0 Navigation Bar]("screenshots/task0-navbar.png)
+![Task 0 Navigation Bar](screenshots/task0-navbar.png)
 
 ### Task 1: Card Row
 - Three cards are placed in one Flexbox container.
